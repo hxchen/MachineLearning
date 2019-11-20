@@ -1,4 +1,4 @@
-、、、bash
+```bash
 t=[0:0.01:0.98];
 y1=sin(2*pi*4*t);
 plot(t,y1);
@@ -27,4 +27,4 @@ A=magic(5);
 imagesc(A);
 imagesc(A),colorbar,colormap gray;
 imagesc(magic(15)),colorbar,colormap gray;
-、、、
+```

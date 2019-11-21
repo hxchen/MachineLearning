@@ -1,21 +1,21 @@
-##控制语句：for while if语句
-###for循环
-####example-1
+## 控制语句：for while if语句
+### for循环
+#### example-1
 ```octave
 v=zeros(10,1);
 for i=1:10,
     v(i)=2^i;
 end;
 ```
-####example-2
+#### example-2
 ```octave
 indices=1:10;
 for i = indices,
     disp(i);
 end;
 ```
-###while循环
-####example-1
+### while循环
+#### example-1
 ```octave
 i=1;
 while i <=5
@@ -23,7 +23,7 @@ while i <=5
     i=i+1;
 end;
 ```
-####example-2
+#### example-2
 ```octave
 i=1;
 while true,
@@ -34,7 +34,7 @@ while true,
     end;
 end;
 ```     
-###if-else语句
+### if-else语句
 ```octave
 v(1) == 2;
 if v(1)==1,
@@ -45,7 +45,7 @@ else
     disp('The value is not one or two');
 end;
 ```
-###函数定义
+### 函数定义
 ```ovtave
 addpath('path') %添加搜索路径
 ```
